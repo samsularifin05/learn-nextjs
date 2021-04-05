@@ -1,0 +1,50 @@
+{
+  "name": "Learn JS",
+  "short_name": "Learn JS",
+  "icons": [
+    {
+      "src": "maskable_icon_x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "maskable_icon_x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "maskable_icon_x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "maskable_icon_x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "maskable_icon_x152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "maskable_icon_x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Lihat Harga Emas Terkini",
+      "short_name": "Harga Emas",
+      "url": "/dashboard",
+      "description": "Lihat Harga Emas Terkini",
+      "icons": [{ "src": "maskable_icon_x128.png", "sizes": "128x128" }]
+    }
+  ]
+}

@@ -1,6 +1,8 @@
-module.exports = {
+const withPWA = require('next-pwa')
+
+module.exports = withPWA({
     env: {
-        appName : "Learn Next JS"
+        appName: "Learn Next JS",
     },
     async rewrites() {
         return [
@@ -13,5 +15,11 @@ module.exports = {
                 destination : '/auth/register'
             }
         ]
+    },
+    pwa: {
+        disable: process.env.NODE_ENV === 'development',
+        register: true,
+        // scope: '/',
+        sw: 'service-worker.js',
     }
-}
+})
