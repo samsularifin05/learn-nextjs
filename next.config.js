@@ -1,6 +1,6 @@
-const withPWA = require('next-pwa')
 
-module.exports = withPWA({
+
+module.exports = {
     env: {
         appName: "Learn Next JS",
     },
@@ -16,10 +16,4 @@ module.exports = withPWA({
             }
         ]
     },
-    pwa: {
-        disable: process.env.NODE_ENV === 'production',
-        register: true,
-        // scope: '/',
-        sw: 'service-worker.js',
-    }
-})
+}
